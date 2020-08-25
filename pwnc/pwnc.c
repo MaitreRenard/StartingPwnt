@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-//gcc -no-pie -o pwnb pwnb.c
+//gcc -no-pie -o pwnc pwnc.c
 bool a = false, b = false, c = false;
 
 void holclc(int x) {
