@@ -9,7 +9,7 @@ void pwnme() {
 }
 
 int main() {
-	puts("Salut à tous !");
+	printf("printf adress : %p\n", printf);
 	pwnme();
 	return 0;
 }
