@@ -1,22 +1,29 @@
 # StartingPwnt
 
+This repository aim to be a starting point for beginner to pwn. I've made a few challenges for each type of attack I know (only 2 types of attack available right now though).
+
 ## How to start
+
+If you are using a debian based GNU/Linux distribution you can use [this setup script](./utils/setup.sh).
 
 The recommended tools are :
 
 * [Pwndbg](https://github.com/pwndbg/pwndbg)
 * [Pwntools](https://github.com/Gallopsled/pwntools) with Python3 or higher ;)
 
-In support of these you can use :
+Additionally you can use :
 
 * [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
 * Objdump (`alias objdump="/usr/bin/objdump -M intel"`)
 
 ## Step n°1 : ROPchains
 
+In this category you will learn how to make ROPchain, if this word doesn't sounds familiar, you may want to read some articles or CTF write-ups about buffer overflow exploitation. The goal in every challenge of this category will be to get a shell.
+
 * `rop/pwna`
 
 The start of the adventure
+||Try to 
 
 * `rop/pwnb`
 
@@ -42,6 +49,14 @@ Write '/bin/sh' somewhere to make that `system` call useful.
 * `rop/pwng`
 
 The classical ROP without '/bin/sh' and `system` call
+
+### Some litterature to go further
+
+A few papers on the subject, ordered by reading complexity. These are not mandatory.
+
+* [Blind ROP state of the art](www.scs.stanford.edu/brop/bittau-brop.pdf)
+* 
+*
 
 ## Step n°2 : Format string
 
